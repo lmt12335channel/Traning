@@ -1,0 +1,226 @@
+﻿/* ========================================================================== */
+/*  GLOBAL STYLES                                                            */
+/* ========================================================================== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #fff;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+/* ========================================================================== */
+/*  LAYOUT & CONTAINER                                                       */
+/* ========================================================================== */
+
+.container.my-5 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ========================================================================== */
+/*  TABLE BASE                                                               */
+/* ========================================================================== */
+
+.table {
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .table th {
+        font-weight: 600;
+    }
+
+    .table th,
+    .table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+        .table td:first-child,
+        .table td:nth-child(2) {
+            text-align: left;
+        }
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* ========================================================================== */
+/*  TABLE HEADER & SECTION GROUPING                                          */
+/* ========================================================================== */
+
+.table thead.table-primary th {
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+/* Header group (mở/đóng) */
+tr.table-section.group-header {
+    background: linear-gradient(90deg, rgba(13, 110, 253, 0.05), rgba(13, 110, 253, 0.02));
+    font-weight: 600;
+    color: #0d6efd;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Ô tiêu đề nhóm */
+tr.group-header td {
+    padding: 0.75rem 1rem;
+}
+
+/* Icon toggle */
+tr.group-header .toggle-icon {
+    transition: transform 0.28s ease;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Khi nhóm mở => icon xoay */
+tr.group-header.is-open .toggle-icon,
+tr.group-header.expanded .toggle-icon {
+    transform: rotate(90deg);
+}
+
+/* Các hàng trong nhóm */
+tr[class^="group-content-"] {
+    transition: background-color 0.18s ease, transform 0.18s ease, opacity 0.18s ease;
+}
+
+/* ========================================================================== */
+/*  TABLE DECORATION                                                         */
+/* ========================================================================== */
+
+.table-responsive {
+    overflow: auto;
+    background: #fff;
+}
+
+    .table-responsive.shadow-sm {
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+        border-radius: 12px;
+    }
+
+/* Ô STT căn giữa */
+.table td.text-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Ô ưu tiên */
+.priority {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* ========================================================================== */
+/*  DROPDOWN                                                                 */
+/* ========================================================================== */
+
+.dropdown .dropdown-menu {
+    min-width: 12rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+}
+
+    .dropdown-item.text-muted {
+        color: #6c757d !important;
+    }
+
+/* ========================================================================== */
+/*  BUTTONS                                                                  */
+/* ========================================================================== */
+
+a.btn.btn-lg.btn-primary.px-5 {
+    border-radius: 30px !important;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    box-shadow: 0 6px 18px rgba(13, 110, 253, 0.12);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+    a.btn.btn-lg.btn-primary.px-5:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 28px rgba(13, 110, 253, 0.14);
+    }
+
+/* ========================================================================== */
+/*  FORM ELEMENTS                                                            */
+/* ========================================================================== */
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* ========================================================================== */
+/*  RESPONSIVE                                                               */
+/* ========================================================================== */
+
+@media (max-width: 768px) {
+    h1.text-center.mb-4.fw-bold.text-primary {
+        font-size: 1.4rem;
+    }
+
+    .table thead.table-primary th {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .dropdown .dropdown-menu {
+        min-width: 10rem;
+    }
+}
+
+<!-- Bổ sung một chút CSS để footer trông đẹp hơn -->
+.site-footer {
+    background-color: #f8f9fa; /* Màu nền xám nhạt */
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer h6 {
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.site-footer a {
+    color: #737373;
+    text-decoration: none;
+}
+
+    .site-footer a:hover {
+        color: #0d6efd; /* Màu primary của Bootstrap */
+        text-decoration: underline;
+    }
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+    .footer-links li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+.copyright-text {
+    margin: 0;
+}

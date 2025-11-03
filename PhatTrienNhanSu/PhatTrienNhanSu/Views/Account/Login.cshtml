@@ -1,0 +1,39 @@
+﻿@model TrainingManagement.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Đăng nhập Nhân viên";
+}
+
+<div class="container mt-5" style="max-width: 400px;">
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <h3 class="card-title text-center mb-4 text-primary fw-bold">Đăng nhập Hệ thống</h3>
+
+            <form asp-action="Login" method="post">
+
+                @* Hiển thị các lỗi chung (ví dụ: "Email hoặc mật khẩu không đúng") *@
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" class="form-control" placeholder="Nhập email công ty của bạn" />
+                    @* Hiển thị lỗi validation riêng cho trường Email *@
+                    <span asp-validation-for="Email" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" class="form-control" placeholder="Nhập mật khẩu của bạn" />
+                    @* Hiển thị lỗi validation riêng cho trường Password *@
+                    <span asp-validation-for="Password" class="text-danger small"></span>
+                </div>
+
+                <div class="d-grid mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="bi bi-box-arrow-in-right me-2"></i> Đăng nhập
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

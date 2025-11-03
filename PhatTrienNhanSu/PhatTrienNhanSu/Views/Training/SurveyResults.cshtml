@@ -1,0 +1,78 @@
+﻿@model List<Service.Workspace.Executes.TrainingService.TrainingModel>
+
+@{
+    ViewData["Title"] = "Xác nhận Đăng ký Khóa học";
+}
+
+<div class="container my-5">
+    <h2 class="text-center text-primary fw-bold mb-4">XÁC NHẬN ĐĂNG KÝ KHÓA HỌC</h2>
+
+    <p>
+        Dựa trên kết quả khảo sát của bạn, đây là danh sách các khóa học bạn đã quan tâm.
+        Vui lòng chọn một <strong>Đơn vị đào tạo</strong> mong muốn cho mỗi khóa học bên dưới.
+    </p>
+
+    <form asp-action="SubmitProviderSelections" method="post">
+
+        <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-bordered align-middle">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Mã CT</th>
+                        <th>Tên chương trình</th>
+                        <th>Lĩnh vực</th>
+                        <th class="text-center">Điểm ưu tiên</th>
+                        <th style="min-width: 250px;">Đơn vị đào tạo (Bắt buộc)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        @for (int i = 0; i < Model.Count; i++)
+                        {
+                            <tr>
+                                <!-- Các trường ẩn để post lại dữ liệu quan trọng -->
+                                <input type="hidden" asp-for="@Model[i].Id" />
+                                <input type="hidden" asp-for="@Model[i].SurveyLevel" />
+
+                                <td>@Model[i].CourseCode</td>
+                                <td>@Model[i].CourseName</td>
+                                <td>@Model[i].FieldName</td>
+                                <td class="text-center fw-bold">@Model[i].SurveyLevel</td>
+                                <td>
+                                    <select asp-for="@Model[i].SelectedProviderId" asp-items="@Model[i].AvailableProviders" class="form-select">
+                                        <option value="">-- Vui lòng chọn --</option>
+                                    </select>
+                                    <span asp-validation-for="@Model[i].SelectedProviderId" class="text-danger small"></span>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center p-4">
+                                <p class="mb-0">Không có kết quả khảo sát nào để hiển thị.</p>
+                                <a asp-action="SaveSurvey">Thực hiện khảo sát ngay</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="text-center mt-4">
+                <a asp-controller="Training" asp-action="Index" class="btn btn-secondary btn-lg me-3">
+                    <i class="bi bi-arrow-left-circle"></i> Trở về
+                </a>
+                <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="bi bi-check-circle"></i> Gửi đăng ký
+                </button>
+            </div>
+        }
+    </form>
+</div>

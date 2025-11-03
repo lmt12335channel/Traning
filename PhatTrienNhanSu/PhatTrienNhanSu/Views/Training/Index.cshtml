@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Service.Workspace.Executes.TrainingService.TrainingModel>
+
+@{
+    ViewData["Title"] = "Chương trình đào tạo nội bộ";
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4 fw-bold text-primary">Chương trình đào tạo nội bộ</h1>
+
+    <div class="table-responsive shadow-sm rounded">
+        <table class="table table-bordered align-middle">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th>STT</th>
+                    <th>Mã CT</th>
+                    <th>Tên chương trình</th>
+                    <th>Thời lượng (h)</th>
+                    <th>Lĩnh vực</th>
+                    <th>Đơn vị đào tạo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int stt = 1; // Biến đếm toàn cục
+
+                    var grouped = Model.GroupBy(c => c.FieldName);
+
+                    foreach (var group in grouped)
+                    {
+                        <tr class="table-section group-header" data-bs-toggle="collapse" data-bs-target=".group-content-@group.Key.GetHashCode()">
+                            <td colspan="6" class="fw-bold">
+                                <i class="bi bi-chevron-right toggle-icon me-2"></i> @group.Key
+                            </td>
+                        </tr>
+
+                        foreach (var item in group)
+                        {
+                            <tr class="collapse show group-content-@group.Key.GetHashCode()">
+                                <td class="text-center">@stt</td>
+                                <td>@item.CourseCode</td>
+                                <td>@item.CourseName</td>
+                                <td class="text-center">@item.DurationHours</td>
+                                <td>@item.FieldName</td>
+                                <td>
+                                    <div class="dropdown">
+                                        <button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button"
+                                                id="dropdown-@item.Id"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                            Xem đơn vị
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdown-@item.Id">
+                                            @if (item.Providers != null && item.Providers.Any())
+                                            {
+                                                foreach (var provider in item.Providers)
+                                                {
+                                                    <li><a class="dropdown-item">@provider</a></li>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <li><a class="dropdown-item text-muted">(Chưa có đơn vị)</a></li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            stt++;
+                        }
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-controller="Training"
+           asp-action="SaveSurvey"
+           class="btn btn-lg btn-primary px-5 shadow-sm"
+           style="border-radius: 30px;">
+            <i class="bi bi-ui-checks me-2"></i> Khảo sát
+        </a>
+    </div>
+</div>

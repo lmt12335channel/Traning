@@ -1,0 +1,90 @@
+﻿@model List<Service.Workspace.Executes.TrainingService.TrainingModel>
+
+@{
+    ViewData["Title"] = "Khảo sát nhu cầu học tập";
+}
+
+<form asp-action="SaveSurvey" method="post">
+    <div class="container my-5">
+        <h2 class="text-center text-primary fw-bold mb-4">KHẢO SÁT NHU CẦU HỌC TẬP</h2>
+
+        <p class="text-muted">
+            <strong>(Anh/Chị vui lòng đánh dấu tích</strong> vào chương trình học mình mong muốn được tổ chức,
+            tương ứng với mức độ ưu tiên theo từng lĩnh vực)
+        </p>
+
+        @* Thông báo *@
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success">@TempData["Success"]</div>
+        }
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger">@TempData["Error"]</div>
+        }
+
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-bordered align-middle table-hover">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th>Mã CT</th>
+                        <th>Tên chương trình</th>
+                        <th colspan="5" class="text-center">Tham dự</th>
+                    </tr>
+                    <tr class="table-light small text-center">
+                        <th colspan="2"></th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                    </tr>
+                    <tr class="table-light small text-center text-muted">
+                        <th colspan="2"></th>
+                        <th>Cập nhật kiến thức</th>
+                        <th>Nâng cao kiến thức</th>
+                        <th>Cần thiết</th>
+                        <th>Rất cần thiết</th>
+                        <th>Ưu tiên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var grouped = Model.GroupBy(c => c.FieldName);
+                        foreach (var group in grouped)
+                        {
+                            <tr class="table-section group-header" data-bs-toggle="collapse" data-bs-target=".group-content-@group.Key.GetHashCode()">
+                                <td colspan="7" class="fw-bold">
+                                    <i class="bi bi-chevron-right toggle-icon me-2"></i> @group.Key
+                                </td>
+                            </tr>
+
+                            foreach (var course in group)
+                            {
+                                <tr class="collapse show group-content-@group.Key.GetHashCode()">
+                                    <td>@course.CourseCode</td>
+                                    <td>@course.CourseName</td>
+                                    @for (int i = 1; i <= 5; i++)
+                                    {
+                                        <td class="text-center">
+                                            <input type="checkbox" name="@($"course_{course.CourseCode}_{i}")" />
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-4">
+            <a asp-controller="Training" asp-action="Index" class="btn btn-secondary btn-lg rounded-pill me-3">
+                <i class="bi bi-arrow-left-circle"></i> Trở về
+            </a>
+            <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5 shadow-sm">
+                <i class="bi bi-check-circle me-1"></i> Đăng ký
+            </button>
+        </div>
+    </div>
+</form>
