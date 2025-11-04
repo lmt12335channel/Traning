@@ -1,0 +1,124 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PhatTrienNhanSu</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-people-fill me-2 fs-4 text-primary"></i>
+                    <span class="fw-bold">PhatTrienNhanSu</span>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Home")">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index", "Training")">Đào tạo</a>
+                        </li>
+                    </ul>
+
+                    <!-- 👇 Hiển thị thông tin người dùng đăng nhập hoặc nút Đăng nhập -->
+                    @{
+                        var name = HttpContextAccessor.HttpContext?.Session.GetString("UserName");
+                        var email = HttpContextAccessor.HttpContext?.Session.GetString("UserEmail");
+                        var job = HttpContextAccessor.HttpContext?.Session.GetString("UserJobTitle");
+                    }
+
+                    @if (!string.IsNullOrEmpty(name))
+                    {
+                        <div class="d-flex align-items-center">
+                            <div class="text-end me-3">
+                                <div class="fw-bold">@name</div>
+                                <small class="text-muted">@job</small><br />
+                                <small class="text-muted">@email</small>
+                            </div>
+                            <a class="btn btn-outline-danger btn-sm" href="@Url.Action("Logout", "Account")">
+                                <i class="bi bi-box-arrow-right"></i> Logout
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-outline-primary btn-sm" href="@Url.Action("Login", "Account")">
+                                <i class="bi bi-person"></i> Đăng nhập
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" style="margin-top: 80px;">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="site-footer border-top mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Cột 1: Giới thiệu -->
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <h6>Về PhatTrienNhanSu</h6>
+                    <p class="text-justify">
+                        Hệ thống quản lý và phát triển nguồn nhân lực nội bộ. Cung cấp các công cụ
+                        để theo dõi, đào tạo và đánh giá hiệu suất của nhân viên.
+                    </p>
+                </div>
+
+                <!-- Cột 2: Liên kết hữu ích -->
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <h6>Liên kết hữu ích</h6>
+                    <ul class="footer-links">
+                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                        <li><a asp-controller="Training" asp-action="Index">Chương trình đào tạo</a></li>
+                        <li><a asp-controller="Survey" asp-action="Index">Khảo sát</a></li>
+                        <li><a asp-controller="Report" asp-action="Index">Báo cáo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cột 3: Thông tin liên hệ -->
+                <div class="col-md-12 col-lg-4">
+                    <h6>Liên hệ</h6>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt-fill me-2"></i> Tầng 10, Tòa nhà ABC, 123 Đường XYZ, Quận 1, TP. HCM</li>
+                        <li><i class="bi bi-telephone-fill me-2"></i> (028) 3812 3456</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i> support@phattriennhansu.com.vn</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copyright-text">
+                        &copy; @DateTime.Now.Year - Bản quyền thuộc về PhatTrienNhanSu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/script.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

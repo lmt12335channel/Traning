@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|d:\\phattriennhansu\\phattriennhansu\\service\\executes\\employeeservice\\employeemany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\employeeservice\\employeemany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|d:\\phattriennhansu\\phattriennhansu\\service\\executes\\employeeservice\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\employeeservice\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|d:\\phattriennhansu\\phattriennhansu\\dbcontext\\db\\trainingdbcontexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\db\\trainingdbcontexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|d:\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|d:\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|d:\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\employeesurveydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\employeesurveydetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\training\\surveyresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\views\\training\\surveyresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|d:\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|d:\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingmany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingmany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|d:\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|d:\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|d:\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingcourseproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingcourseproviders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|d:\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\training\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\views\\training\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\wwwroot\\assets\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\wwwroot\\assets\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\training\\savesurvey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\views\\training\\savesurvey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|d:\\phattriennhansu\\phattriennhansu\\phattriennhansu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\TrainingManagement.csproj|solutionrelative:phattriennhansu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "script.js",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
+              "RelativeToolTip": "PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-03T03:12:10.115Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:18:52.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeMany.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\EmployeeService\\EmployeeMany.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\EmployeeService\\EmployeeMany.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\EmployeeService\\EmployeeMany.cs",
+              "RelativeToolTip": "Service\\Executes\\EmployeeService\\EmployeeMany.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T01:41:26.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T01:43:32.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T01:43:21.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrainingController.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\TrainingController.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\TrainingController.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\TrainingController.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\TrainingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:01:27.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\EmployeeService\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\EmployeeService\\EmployeeModel.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\EmployeeService\\EmployeeModel.cs",
+              "RelativeToolTip": "Service\\Executes\\EmployeeService\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T01:51:22.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TrainingDbContexts.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\DB\\TrainingDbContexts.cs",
+              "RelativeDocumentMoniker": "DBContext\\DB\\TrainingDbContexts.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\DB\\TrainingDbContexts.cs",
+              "RelativeToolTip": "DBContext\\DB\\TrainingDbContexts.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:35:02.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrainingProviders.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingProviders.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingProviders.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingProviders.cs",
+              "RelativeToolTip": "DBContext\\Entities\\TrainingProviders.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:09:03.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrainingCourses.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingCourses.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingCourses.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingCourses.cs",
+              "RelativeToolTip": "DBContext\\Entities\\TrainingCourses.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:15:49.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeSurveyDetails.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeSurveyDetails.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\EmployeeSurveyDetails.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeSurveyDetails.cs",
+              "RelativeToolTip": "DBContext\\Entities\\EmployeeSurveyDetails.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:24:36.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Program.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Program.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Program.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T01:52:32.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SurveyResults.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\SurveyResults.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Training\\SurveyResults.cshtml",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\SurveyResults.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Training\\SurveyResults.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T07:43:46.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T08:56:13.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TrainingOne.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingOne.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingOne.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingOne.cs",
+              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingOne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:55:38.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TrainingMany.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingMany.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingMany.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingMany.cs",
+              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingMany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T01:47:49.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TrainingCommand.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingCommand.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingCommand.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingCommand.cs",
+              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:03:50.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TrainingModel.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingModel.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingModel.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingModel.cs",
+              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:02:26.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TrainingCourseProviders.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingCourseProviders.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingCourseProviders.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingCourseProviders.cs",
+              "RelativeToolTip": "DBContext\\Entities\\TrainingCourseProviders.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:31:16.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrainingFields.cs",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingFields.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingFields.cs",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingFields.cs",
+              "RelativeToolTip": "DBContext\\Entities\\TrainingFields.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:27:53.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T02:02:03.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T01:52:17.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
+              "RelativeToolTip": "PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAswOIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T03:40:49.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SaveSurvey.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\SaveSurvey.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Training\\SaveSurvey.cshtml",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\SaveSurvey.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Training\\SaveSurvey.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T02:04:59.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\appsettings.json",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\appsettings.json",
+              "ToolTip": "D:\\PhatTrienNhanSu\\PhatTrienNhanSu\\PhatTrienNhanSu\\appsettings.json",
+              "RelativeToolTip": "PhatTrienNhanSu\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T01:52:31.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
